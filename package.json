@@ -1,0 +1,24 @@
+{
+  "name": "easyh5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "easyh5.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lahuier/EasyH5.git"
+  },
+  "author": "Larrynp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lahuier/EasyH5/issues"
+  },
+  "homepage": "https://github.com/lahuier/EasyH5#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1"
+  }
+}
