@@ -9,4 +9,3 @@ webpack.config.js
 *.iml
 out
 gen
-/.idea/
