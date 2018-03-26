@@ -4,23 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="target-densitydpi=device-dpi, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>EasyH5 Page</title>
-    <link rel="stylesheet" href="easyh5.css">
 </head>
 <body>
 <div id="my-easyh5">
-    <div page="test"></div>
-    <div page="public"></div>
+    <div id="test" class="e-page"></div>
+    <div id="public"></div>
 </div>
 <!-- use JQuery -->
-
-<script src="easyh5.js"></script>
+<script src="../build/easyh5.min.js"></script>
 <script>
-    var a = new Easyh5({
-        el: "#my-easyh5",
-        page: [
-            "test"
-        ],
+
+    var a = new EasyH5({
+        el: '#my-easyh5',
+        page: ['test']
     });
+
 
 
 </script>
