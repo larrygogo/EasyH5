@@ -14,3 +14,4 @@ gen
 /src/images/
 /dist/
 /src/style.css
+/package-lock.json
