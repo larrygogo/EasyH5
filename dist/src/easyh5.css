@@ -2,8 +2,14 @@ body {
     margin: 0;
     padding: 0;
 }
+
 img {
     position: absolute;
+}
+
+section {
+    margin: 0;
+    padding: 0;
 }
 .e-page {
     position: absolute;

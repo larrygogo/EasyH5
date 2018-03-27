@@ -1,0 +1,397 @@
+/* 封面 */
+.main-title {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.main-play {
+    display: none;
+    position: absolute;
+    bottom: 15%;
+    width: 60%;
+    left: 20%;
+}
+.loadding-box {
+    position: absolute;
+    width: 640px;
+    height: 1040px;
+    text-align: center;
+}
+.role-walk-loadding {
+    position: absolute;
+    /*transform: scaleX(-1);*/
+    bottom: 210px;
+    width: 90px;
+    left: -50px;
+}
+.loading-text {
+    z-index: 2;
+    position: absolute;
+    /*transform: scaleX(-1);*/
+    font-size: 24px;
+    color: #ffffff;
+    bottom: 150px;
+    width: 200px;
+    left: calc( (640px - 200px) / 2);
+}
+
+/* 场景1 */
+.role-stand-1 {
+    display: none;
+    position: absolute;
+    bottom: 210px;
+    width: 90px;
+    left: 300px;
+}
+.role-walk-1 {
+    position: absolute;
+    /*transform: scaleX(-1);*/
+    bottom: 210px;
+    width: 90px;
+    left: -50px;
+}
+.dialog-1-1 {
+    display: none;
+    position: absolute;
+    top: -20px;
+    left: -60px;
+    width: 640px;
+    height: 1040px;
+}
+.before, .cheat, .prelude {
+    position: absolute;
+    width: 640px;
+    height: 1040px;
+}
+/* 场景2 */
+.role-stand-2 {
+    display: none;
+    position: absolute;
+    bottom: 210px;
+    width: 90px;
+    left: 300px;
+}
+.role-walk-2 {
+    position: absolute;
+    /*transform: scaleX(-1);*/
+    bottom: 210px;
+    width: 90px;
+    left: -50px;
+}
+.dialog-2-1 {
+    display: none;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 640px;
+    height: 1040px;
+}
+.dialog-2-2 {
+    display: none;
+    position: absolute;
+    top: 20px;
+    width: 640px;
+    height: 1040px;
+}
+.flower-2 {
+    display: none;
+    position: absolute;
+    width: 640px;
+    height: 1040px;
+}
+.flower-2-info-box {
+    position: absolute;
+    width: 640px;
+    height: 1040px;
+    display: none;
+}
+.flower-2-info {
+    position: absolute;
+    width: 640px;
+    height: 1040px;
+}
+.gettopack-2 {
+    position: absolute;
+    width: 211px;
+    left: calc( (640px - 211px) / 2);
+    bottom: 18%;
+}
+
+/* 场景3 */
+.role-stand-3 {
+    display: none;
+    position: absolute;
+    bottom: 210px;
+    width: 90px;
+    left: 220px;
+}
+.role-walk-3 {
+    position: absolute;
+    /*transform: scaleX(-1);*/
+    bottom: 210px;
+    width: 90px;
+    left: -50px;
+}
+.oldman {
+    position: absolute;
+    bottom: 208px;
+    width: 90px;
+    left: 340px;
+}
+.dialog-3-1 {
+    display: none;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 640px;
+    height: 1040px;
+}
+.dialog-3-2 {
+    display: none;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 640px;
+    height: 1040px;
+}
+.dialog-3-3 {
+    display: none;
+    position: absolute;
+    top: -10px;
+    left: -80px;
+    width: 640px;
+    height: 1040px;
+}
+.key-3-info-box {
+    position: absolute;
+    width: 640px;
+    height: 1040px;
+    display: none;
+}
+.key-3-info {
+    position: absolute;
+    width: 640px;
+    height: 1040px;
+}
+.gettopack-3 {
+    position: absolute;
+    width: 211px;
+    left: calc( (640px - 211px) / 2);
+    bottom: 30%;
+}
+
+/* 场景4 */
+.role-stand-4 {
+    display: none;
+    position: absolute;
+    bottom: 215px;
+    width: 90px;
+    left: 330px;
+}
+.role-walk-4 {
+    position: absolute;
+    /*transform: scaleX(-1);*/
+    bottom: 215px;
+    width: 90px;
+    left: -50px;
+}
+.dialog-4-1 {
+    display: none;
+    position: absolute;
+    top: -10px;
+    left: -30px;
+    width: 640px;
+    height: 1040px;
+}
+.dialog-4-2 {
+    display: none;
+    position: absolute;
+    top: -10px;
+    left: -30px;
+    width: 640px;
+    height: 1040px;
+}
+.chest-4 {
+    display: none;
+    position: absolute;
+    width: 62px;
+    height: 44px;
+    /*bottom:230px;*/
+    bottom: 800px;
+    left: 500px;
+    /*left: 480px;*/
+}
+.chest-4-info-box {
+    position: absolute;
+    width: 640px;
+    height: 1040px;
+    display: none;
+}
+.gettopack-4 {
+    position: absolute;
+    width: 211px;
+    left: calc( (640px - 211px) / 2);
+    bottom: 20%;
+}
+
+/* 场景5 */
+.role-walk-5 {
+    position: absolute;
+    /*transform: scaleX(-1);*/
+    bottom: 210px;
+    width: 90px;
+    left: -50px;
+}
+.review {
+    position: absolute;
+    width: 423px;
+    height: 34px;
+    bottom: 18%;
+    left: calc( (640px - 423px) / 2);
+}
+.replay {
+    position: absolute;
+    width: 352px;
+    height: 34px;
+    bottom: 13%;
+    left: calc( (640px - 352px) / 2);
+}
+.jumptoweb {
+    position: absolute;
+    width: 284px;
+    height: 26px;
+    bottom: 45%;
+    left: 335px;
+}
+.jumptofile {
+    position: absolute;
+    width: 243px;
+    height: 26px;
+    bottom: 40%;
+    left: 335px
+}
+/* 背包 */
+.backpack {
+    display: none;
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+}
+.backpack-tips {
+    display: none;
+    position: absolute;
+    bottom: 100px;
+    left: 120px;
+    width: 287px;
+    height: 85px;
+}
+
+.backpack-main {
+    display: none;
+    position: absolute;
+}
+
+.backpack-box {
+    position: absolute;
+    width: 100%;
+
+}
+
+.hide-backpack {
+    position: absolute;
+    width: 211px;
+    left: calc( (640px - 211px) / 2);
+    bottom: 15%;
+}
+
+.water-box {
+    position: absolute;
+    width: 180px;
+    bottom: 640px;
+    left: 135px;
+    text-align: center;
+
+}
+
+.bread-box {
+    position: absolute;
+    width: 180px;
+    bottom: 640px;
+    left: 325px;
+    text-align: center;
+}
+
+.memo-box {
+    position: absolute;
+    width: 180px;
+    bottom: 455px;
+    left: 135px;
+    text-align: center;
+}
+
+.flower-box {
+    display: none;
+    position: absolute;
+    width: 180px;
+    bottom: 455px;
+    left: 325px;
+    text-align: center;
+}
+
+.key-box {
+    display: none;
+    position: absolute;
+    width: 180px;
+    bottom: 280px;
+    left: 135px;
+    text-align: center;
+}
+
+.chest-box {
+    display: none;
+    position: absolute;
+    width: 180px;
+    bottom: 280px;
+    left: 325px;
+    text-align: center;
+}
+
+.info-box, .water-info, .bread-info, .memo-info, .flower-info, .key-info, .chest-info, .error-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 640px;
+    height: 1040px;
+}
+
+.info-box, .water-info-box, .bread-info-box, .memo-info-box, .flower-info-box, .key-info-box, .chest-info-box, .error-info-box {
+    display: none;
+}
+
+.music-btn {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 70px;
+    height: 70px;
+}
+
+.music-rotate {
+    animation: rotate 1s infinite;
+}
+
+@keyframes rotate {
+    0% {transform:rotate(0deg)}
+    10% {transform:rotate(36deg)}
+    20% {transform:rotate(72deg)}
+    30% {transform:rotate(108deg)}
+    40% {transform:rotate(144deg)}
+    50% {transform:rotate(180deg)}
+    60% {transform:rotate(216deg)}
+    70% {transform:rotate(252deg)}
+    80% {transform:rotate(288deg)}
+    90% {transform:rotate(324deg)}
+    100% {transform:rotate(360deg)}
+}
