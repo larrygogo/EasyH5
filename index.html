@@ -8,19 +8,54 @@
 </head>
 <body>
 <div id="my-easyh5">
-    <div id="test" class="e-page">
-
+    <div id="test">
+        <img class="music-btn music-rotate" src="images/public/music.png" alt="" style="z-index: 10">
+        <img class="music-btn music-rotate" src="images/public/music.png" alt="" style="z-index: 10">
+        <img class="main-title" src="images/cover/title.png" alt="" style="z-index: 1">
+        <img id="mainPlay" class="main-play" src="images/cover/play.png" alt="" style="z-index: 1;display: none">
+        <img class="e-background-img" src="images/cover/background.png" alt="" style="z-index: 0">
+        <div class="loadding-box">
+            <img class="role-walk-loadding" src="images/public/walk.gif" alt="">
+            <p class="loading-text">正在加载 <span class="loadding-num">0%</span></p>
+        </div>
     </div>
-
 </div>
-<!-- use JQuery -->
 <script src="./build/easyh5.min.js"></script>
 <script>
-
     var a = new EasyH5({
         el: '#my-easyh5',
         page: ["test"],
+        music: "https://lahuier.github.io/Bosch/music/music.mp3"
     });
+
+    a.loadMusic(musicController)
+
+    function musicController() {
+        let btn = document.getElementsByClassName('music-btn');
+        console.log(btn)
+        for (let i = 0; i < btn.length; i++) {
+            document.getElementsByClassName("music-btn")[i].addEventListener("touchend",function () {
+                if(a.audio.paused || a.audio.ended){
+                    for (let i = 0; i < btn.length; i++) {
+                        btn[i].classList.add('music-rotate')
+                    }
+                    a.audio.play();
+                    document.addEventListener("WeixinJSBridgeReady", function () {
+                        a.audio.play();
+                    }, false);
+                }
+                else{
+                    for (let i = 0; i < btn.length; i++) {
+                        btn[i].classList.remove('music-rotate')
+                    }
+                    a.audio.pause();
+                    document.addEventListener("WeixinJSBridgeReady", function () {
+                        a.audio.pause();
+                    }, false);
+                }
+            }, false);
+        }
+    }
 
 
 
