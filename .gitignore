@@ -1,6 +1,7 @@
 /node_modules/
 .babelrc
 webpack.config.js
+
 ### Example user template template
 ### Example user template
 
@@ -10,3 +11,6 @@ webpack.config.js
 out
 gen
 /.idea/
+/src/images/
+/dist/
+/src/style.css
