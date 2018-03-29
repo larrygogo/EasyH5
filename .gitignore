@@ -11,7 +11,7 @@ webpack.config.js
 out
 gen
 /.idea/
-/src/images/
+/images/
 /dist/
 /src/style.css
 /package-lock.json
