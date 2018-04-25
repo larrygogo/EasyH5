@@ -4,6 +4,7 @@
   "description": "移动端H5快速构建工具",
   "main": "easyh5.js",
   "scripts": {
+    "start": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Larry",
