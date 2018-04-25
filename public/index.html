@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="target-densitydpi=device-dpi, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>EasyH5 Page</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div id="my-easyh5">
@@ -21,17 +21,15 @@
     <div id="p2"></div>
 </div>
 <!-- use JQuery -->
-<script src="../build/easyh5.min.js"></script>
+<script type="text/javascript" src="../dist/easyh5.js"></script>
 <script>
 
-    var a = new EasyH5({
+    var a = new Easyh5({
         el: '#my-easyh5',
-        page: ["test","p2"],
+        page: [{el:"test"},{el:"p2"}],
         width: 640,
-        currentPage: "p2"
+        // currentPage: "p2"
     });
-
-
 
 </script>
 </body>

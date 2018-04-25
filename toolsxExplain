@@ -1,0 +1,11 @@
+# npm package
+
+- babel-preset-es2015
+- ES2015转码工具
+
+- babel-core
+- 需要调用Babel的API进行转码
+
+- babel-polyfill
+- babel默认只换JS语法而不转API，需要调用它来转
+
